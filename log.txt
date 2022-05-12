@@ -1,0 +1,10 @@
+May 3, 2022
+Still need to do some responsiveness.
+The design is good. Blurring background + scroll trigger.
+Need to add an exit button.
+
+If I were to revisit this project:
+I would explore more concise codes.
+
+May 10, 2022
+Finished the close button. I think last May 7, I got stuck figuring out the 8px body margin.

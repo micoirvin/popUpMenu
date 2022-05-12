@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="pop-up-container">
+    <!-- Rating state start -->
+    <div class="pop-up" id="rating-pop-up">
+      <div class="space-between">
+        <span class="circle mb-32">
+          <img src="images/icon-star.svg" alt="star icon">
+        </span>
+        <span class="close-pop-up">
+          <img src="images/icon-close-menu.svg" width="24px" alt="">
+        </span>
+      </div>
+      <h1>How did we do?</h1>
+      <p class="mb-32">
+        Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!
+      </p>
+      <div class="rating-options mb-32">
+        <button class="circle">1</button>
+        <button class="circle">2</button>
+        <button class="circle">3</button>
+        <button class="circle">4</button>
+        <button class="circle">5</button>
+      </div>
+      <button class="submit" id="rating-submit">
+        SUBMIT
+      </button>
+    </div>
+    <!-- Rating state end -->
+    <!-- Thank you state start -->
+    <div class="pop-up" id="thank-you">
+      <div class="space-between">
+        <span></span>
+        <span class="close-pop-up">
+          <img src="images/icon-close-menu.svg" width="24px" alt="">
+        </span>
+      </div>
+      <img src="images/illustration-thank-you.svg" alt="" class="mb-32">
+      <div class="user-rating-message mb-16">You selected <span id="user-rating"></span> out of 5</div>
+      <h1>Thank you!</h1>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
+      </p>
+    </div>
+    <!-- Thank you state end -->
+  </div>
+
+  <div class="container">
+    <header>
+      <div>
+        LOGO
+      </div>
+      <nav>
+        nav
+      </nav>
+    </header>
+
+    <main>
+      <h1>TITLE HERE</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id tempore accusamus, nobis dolores ut laudantium nesciunt nostrum consequatur provident vel optio similique temporibus, totam cum reiciendis quod porro excepturi ad.</p>
+      <p>Repellat asperiores sit esse vel porro recusandae maxime eius, mollitia fugit architecto consequuntur aliquid id dignissimos a alias earum totam officiis hic! Iusto, rem enim a explicabo molestiae aliquam neque.</p>
+      <p>Tempora, voluptates nulla eaque veniam doloremque, fugit odio corrupti delectus magnam laborum temporibus facere hic reprehenderit molestias velit ab. Quaerat dicta totam a voluptatibus ipsum nemo in harum laudantium optio?</p>
+      <p>Commodi labore eaque non nostrum earum laborum qui eligendi sunt ex neque nisi dicta ea omnis mollitia nulla itaque, odit quia voluptas sapiente maxime ullam dolores ad similique. At, provident.</p>
+      <p>Similique quis perspiciatis vero vel dolorem nobis incidunt, unde aliquam ut omnis ex consectetur nulla eos rem! Mollitia, eveniet asperiores modi ex sint officia, possimus sequi nisi illum nemo est!</p>
+      <p>Qui obcaecati, commodi aut veniam illum, tempora minima doloremque neque eligendi adipisci distinctio praesentium numquam. Quibusdam eum tempora, impedit vero ratione laudantium facere doloribus odio, ea omnis alias dicta cupiditate.</p>
+      <p>Ab delectus qui soluta, quisquam voluptatum nisi recusandae, alias nemo fuga ratione optio repellendus vero odit minus distinctio rem. Voluptates itaque voluptatum in? Sapiente non aut fugiat accusantium temporibus animi.</p>
+      <p>Unde ea tenetur totam nobis enim. Veritatis ad quam, ullam quidem modi distinctio, temporibus est inventore, dicta voluptatibus reprehenderit possimus repellat officia ea impedit quia tenetur esse earum laborum nihil.</p>
+      <p>Veniam amet impedit ab ipsum placeat, cupiditate reprehenderit autem porro maiores provident eligendi ea aperiam quae exercitationem blanditiis recusandae excepturi voluptas consequuntur quis esse dolorum. Accusamus saepe aut a sit.</p>
+      <p>Sapiente quibusdam suscipit sunt magni dolor nobis, molestias nemo totam, ad, natus tempore sed veritatis molestiae! Natus similique optio minus repellendus, et, maxime, esse possimus accusantium modi sint beatae harum!</p>
+      <p>Velit nulla obcaecati impedit neque cumque iste distinctio illo incidunt, laudantium saepe nostrum minima quisquam iusto quae minus accusantium iure. Amet accusamus sapiente sunt perspiciatis, fuga expedita nemo veritatis reprehenderit.</p>
+      <p>Quam aliquam atque nemo id quo aliquid nulla obcaecati corporis quas cum eos quaerat nihil excepturi aut quisquam nostrum ab esse sequi, adipisci repudiandae. Repellat nam iste consectetur sequi odit.</p>
+      <p>Quas, maiores explicabo recusandae vero est odio? Aperiam velit ipsum ducimus ullam nostrum, eos eius ipsam repellendus, accusamus sint numquam inventore voluptatem excepturi cum atque est saepe provident. Unde, nostrum.</p>
+      <p>Necessitatibus aut consequuntur enim laborum, itaque debitis, voluptas praesentium voluptatem vitae quibusdam excepturi! Odio perspiciatis magnam, explicabo, corrupti doloribus quibusdam, dolore ex nesciunt dolores non qui aspernatur necessitatibus et vitae.</p>
+      <p>Corrupti nam non, molestiae eligendi maiores distinctio nesciunt libero praesentium enim tempore rem dolores ipsum veritatis, facere ex delectus, hic veniam aspernatur? Nemo eaque autem dicta ab suscipit esse tempore!</p>
+      <p>Saepe ratione aperiam quibusdam sint nihil quidem, illum ipsa, nulla similique minus obcaecati ad veritatis corporis reiciendis non unde, atque recusandae alias optio quia cumque repellat assumenda mollitia! Dolorum, eaque.</p>
+      <p>Eum asperiores consectetur itaque impedit aut officiis qui odit sed, tempora quidem quam, maxime nisi magni voluptatibus accusantium voluptatum quasi cumque. Fugit nam beatae omnis asperiores harum ducimus vel incidunt.</p>
+      <p>Voluptatem neque fuga blanditiis nisi labore ut ullam. Fugit assumenda odit, ipsum, temporibus esse consequuntur inventore nam dolores voluptas totam reprehenderit iure quo quasi. Amet, ad! Quod similique accusamus facere.</p>
+      <p>Velit quasi nulla, eaque dolorum necessitatibus molestiae corporis omnis odit magni eius qui nobis id, doloremque fugit quibusdam aperiam saepe ea adipisci cumque? Repellendus, consequuntur officia voluptatum reprehenderit possimus error?</p>
+      <p>Impedit omnis aspernatur numquam nulla rerum excepturi, maiores velit nobis labore reprehenderit quasi sed vitae nostrum perferendis maxime quas, ipsum, perspiciatis adipisci mollitia! Ad nostrum voluptatibus modi commodi consectetur nobis.</p>
+      <p>Totam ipsa voluptatem, sapiente non ex, nulla unde atque repellat quae minima officiis illo quo magni ea aspernatur impedit nobis modi recusandae molestiae. Amet, distinctio deleniti commodi ab totam asperiores.</p>
+      <p>Aperiam, dolorum est. Quo, cum. Debitis omnis harum cum rem ipsa corporis nihil, voluptate est tempore? Aliquid fuga est mollitia, ducimus, asperiores rerum repudiandae illum cumque error, magnam fugiat labore?</p>
+      <p>Architecto laudantium vel ipsam deserunt laborum quam, odit, repudiandae error quis maxime debitis voluptas facilis blanditiis distinctio soluta magni culpa molestias ipsum delectus libero pariatur! Alias natus maxime consectetur numquam.</p>
+      <p>Soluta inventore cumque laudantium eos nostrum aliquid, exercitationem nemo error aperiam. Velit rerum adipisci pariatur ullam praesentium harum, nulla vitae ea nemo sint dolorem magni. Odio aut ex temporibus maxime.</p>
+      <p>Et est, molestiae voluptatem quae atque provident delectus dolore corrupti! Minus explicabo fugit dolor accusamus esse reprehenderit laboriosam accusantium voluptas, at sequi consequatur consequuntur excepturi beatae deserunt a dignissimos. Molestiae!</p>
+      <p>Placeat, sed repellat minus aliquid autem eveniet quod cum voluptatibus, aut magnam veniam, omnis ullam adipisci officiis. Aperiam repellat voluptas eaque, aspernatur accusantium doloremque unde architecto iure soluta, debitis incidunt?</p>
+      <p>Temporibus, blanditiis repellendus! Saepe velit, ex asperiores accusantium, ipsum labore obcaecati, facilis vitae nostrum corrupti ipsa fugit. Iusto ipsum nostrum id rem ad quaerat nihil tempora. Quis rerum quos molestiae!</p>
+      <p>Sint omnis ex officia. Maiores architecto eum numquam eaque dolore corrupti eveniet! At voluptate atque ut! Rem quis earum sequi amet, accusantium praesentium saepe possimus illum, enim rerum, quaerat modi.</p>
+      <p>Voluptatum repudiandae veniam autem, fugit ad voluptates dolorum nisi porro, consectetur, perspiciatis minus corrupti corporis natus ab illo temporibus assumenda provident sunt expedita est dicta. Cupiditate rem voluptate quibusdam aliquid.</p>
+      <p>Numquam corrupti cum aperiam, qui ipsum blanditiis non excepturi ut! Repudiandae exercitationem iusto sapiente deleniti earum quam. Nostrum iste sed modi ut excepturi consequatur dicta deserunt ipsam, dolore explicabo dignissimos?</p>
+
+    </main>
+ 
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
